@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route("/github/event/push", methods=["POST"])
 def handle_push_event():
-    print("request.get_json: ", request.get_json())
+    print("request.data: ", request.data)
+    print("\nrequest.get_json: ", request.get_json())
     return "SUCCESS"
 
 
