@@ -13,6 +13,7 @@ def handle_push_event():
         branch = content["ref"].split("/")[-1]
         repository_name = content["repository"]["name"]
         exec_shell(branch, repository_name)
+        
     except Exception as e:
         print(">>>>>>>>>>>>>>>>>>>>>>>>>> ERROR")
         print(e)
