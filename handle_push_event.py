@@ -22,4 +22,4 @@ def handle_push_event():
 
 
 if __name__ == "__main__":
-    app.run('localhost', 7701, debug=True)
+    app.run('localhost', 7701, debug=False)

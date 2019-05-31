@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79bc7c1b-3c0d-431e-a3f4-5cd781dc373e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/restart_my_blog_shell.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exec_shell.py" afterPath="$PROJECT_DIR$/exec_shell.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/handle_push_event.py" afterPath="$PROJECT_DIR$/handle_push_event.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="handle_push_event.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="handle_push_event.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handle_push_event.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="432">
+              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -28,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exec_shell.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exec_shell.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exec_shell.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -84,8 +82,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/restart_my_blog_shell.py" />
-        <option value="$PROJECT_DIR$/handle_push_event.py" />
         <option value="$PROJECT_DIR$/exec_shell.py" />
+        <option value="$PROJECT_DIR$/handle_push_event.py" />
       </list>
     </option>
   </component>
@@ -340,21 +338,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/handle_push_event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exec_shell.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/handle_push_event.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
