@@ -1,5 +1,7 @@
 from flask import Flask, request
 
+from exec_shell import exec_shell
+
 app = Flask(__name__)
 
 
@@ -11,6 +13,7 @@ def handle_push_event():
         repository_name = content["repository"]["name"]
         print("branch: ", branch)
         print("repository_name: ", repository_name)
+        exec_shell(branch, repository_name)
     except Exception as e:
         print(">>>>>>>>>>>>>>>>>>>>>>>>>> ERROR")
         print(e)
