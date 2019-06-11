@@ -3,7 +3,8 @@ import os
 
 # 定义每个不同的仓库名字执行的 shell 语句
 SHELL_DICT = {
-    "my_blog": "cd /home/wcp/work/github-projects/my_blog && git pull && supervisorctl restart wcp_blog_uwsgi"
+    "my_blog": "cd /home/wcp/work/github-projects/my_blog && git pull && supervisorctl restart wcp_blog_uwsgi",
+    "SharePic": "cd /home/wcp/work/github-projects/SharePic && git pull && supervisorctl restart wcp_SharePic_uwsgi wcp_SharePic_celery_worker"
 }
 
 
