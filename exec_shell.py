@@ -16,4 +16,3 @@ def exec_shell(branch, repository_name):
     if repository_name not in SHELL_DICT:
         return None
     return os.system(SHELL_DICT[repository_name])
-    return os.popen(SHELL_DICT[repository_name])
