@@ -13,7 +13,7 @@ SHELL_DICT = {
                "/home/wcp/.virtualenvs/py3_django2/bin/uwsgi --stop /home/wcp/var/pids/uwsgi_SharePic.pid && "
                 "supervisorctl restart wcp_SharePic_uwsgi wcp_SharePic_celery_worker",
     "Stock": "cd /home/wcp/work/git-projects/Stock && "
-             "git pull origin master &&"
+             "git pull origin master && "
              "supervisorctl restart Stock_project:*"
 }
 
